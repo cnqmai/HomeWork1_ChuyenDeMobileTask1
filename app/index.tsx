@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
+import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 const Home = () => {
   const router = useRouter();
@@ -37,8 +37,8 @@ const styles = StyleSheet.create({
   },
   button: {
     backgroundColor: '#2915aaff',
-    paddingVertical: 10,
-    paddingHorizontal: 4,
+    paddingVertical: 8,
+    paddingHorizontal: 8,
     borderRadius: 15,
     width: 120,
     marginBottom: 10,
@@ -46,7 +46,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: 'white',
-    fontSize: 22,
+    fontSize: 20,
   },
 });
 
