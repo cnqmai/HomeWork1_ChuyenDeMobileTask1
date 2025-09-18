@@ -77,11 +77,11 @@ const styles = StyleSheet.create({
     fontSize: 22,
     marginBottom: 5,
     fontWeight: 'bold',
-    color: '#b52aceff',
+    color: '#c52dc5ff',
   },
   input: {
     height: 40,
-    borderColor: '#b52aceff',
+    borderColor: '#c52dc5ff',
     borderRadius: 17,
     borderWidth: 1,
     paddingHorizontal: 10,
